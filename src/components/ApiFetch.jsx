@@ -6,7 +6,7 @@ function ApiFetch() {
 
   const getData = async () => {
   
-      const response = await axios.get('http://127.0.0.1:4000/albums');
+      const response = await axios.get('http://localhost:4000/albums');
       setData(response.data);
    
   };
