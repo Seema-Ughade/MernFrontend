@@ -6,7 +6,7 @@ function App2() {
   const[data, setdata]=useState([]);
 
   const getData = async () => {
-    const mainData = await axios.get('https://jsonplaceholder.typicode.com/courses');
+    const mainData = await axios.get('https://mern-backendnew.onrender.com/courses');
     setdata(mainData.data)
 
   }
